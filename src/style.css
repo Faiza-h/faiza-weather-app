@@ -19,7 +19,7 @@ header {
   padding: 0 0 30px 0;
 }
 .search-form-input {
-  background-color: rgb(130, 130, 203);
+  background-color: rgb(171, 171, 204);
   border: none;
   border-radius: 6px;
   width: 80%;
@@ -45,8 +45,12 @@ main {
 }
 .weather-app-details {
   font-size: 16px;
-  color: brown;
-  line-height: 20px;
+  color: rgba(39, 33, 66, 0.4);
+  line-height: 24px;
+  font-weight: 500;
+}
+.weather-app-details strong {
+  color: rgb(217, 81, 104);
 }
 .weather-app-data {
   display: flex;
