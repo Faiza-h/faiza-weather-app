@@ -52,6 +52,23 @@ main {
 .weather-app-details strong {
   color: rgb(217, 81, 104);
 }
+.weather-app-temperature-container {
+  display: flex;
+}
+.weather-app-temperature {
+  font-size: 88px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.weather-app-icon {
+  font-size: 44px;
+  margin-top: 22px;
+}
+
+.weather-app-unit {
+  margin-top: 16px;
+  font-size: 28px;
+}
 .weather-app-data {
   display: flex;
   justify-content: space-between;
