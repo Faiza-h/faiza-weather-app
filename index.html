@@ -11,7 +11,7 @@
     />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
-    <title>Weather App</title>
+    <title>Faiza Weather App</title>
   </head>
   <body>
     <div class="weather-app">
@@ -29,20 +29,23 @@
       </header>
       <main>
         <div class="weather-app-data">
-          <div>
-            <h1 class="weather-app-city" id="city">South Africa</h1>
-            <p class="weather-app-details">
-              Tuesday 14:13, Sunny <br />
-              Humidity <strong>26%</strong>, Wind <strong>0.25km/h</strong>
-            </p>
-          </div>
-          <div class="weather-app-temperature-container">
-            <div class="weather-app-icon">🌞</div>
-            <div class="weather-app-temperature">25</div>
+          <h1 id="city">Johannesburg</h1>
+          <p id="weather-info">
+            <span id="time">Loading...</span>, <span id="description"></span
+            ><br />
+            <span id="humidity"></span>, <span id="wind-speed"></span>
+          </p>
+          <div
+            id="temperature-container"
+            class="weather-app-temperature-container"
+          >
+            <div id="icon" class="weather-app-icon"></div>
+            <div id="temperature" class="weather-app-temperature"></div>
             <div class="weather-app-unit">℃</div>
           </div>
         </div>
       </main>
+
       <footer>
         Coded by
         <a href="https://github.com/Faiza-h" target="_blank"> Faiza Hoosein</a>,
